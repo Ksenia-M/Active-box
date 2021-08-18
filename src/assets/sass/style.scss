@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #6c7279;
+	-webkit-font-smoothing: antialiased;
+	
+	background-color: #fff;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+/* Bootstrap */
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/transitions";
+@import "../../../node_modules/bootstrap/scss/grid";
+@import "../../../node_modules/bootstrap/scss/modal";
+
+
+
+
+/* Blocks */
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/features";
+@import "blocks/burger";
+@import "blocks/btn";
+@import "blocks/copyright";
+@import "blocks/social";
+@import "blocks/reviews";
+@import "blocks/team";
+@import "blocks/work";
+@import "blocks/download";
+@import "blocks/footer";
